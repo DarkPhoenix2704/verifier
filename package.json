@@ -1,0 +1,20 @@
+{
+  "name": "verifier",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Anbarasu",
+  "license": "MIT",
+  "scripts":{
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.31.0",
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
